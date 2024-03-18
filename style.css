@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Mulish", sans-serif;
+    cursor: pointer;
+}
+
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+
+#main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+#left{
+    width: 50%;
+    height: 100%;
+}
+
+#left img{
+    width: 760px;
+    height: 540px;
+    margin-top: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.navbar .logo{
+    padding: 15px 50px;
+}
+
+.navbar .logo img{
+  width: 40px;
+  border-radius: 50%;
+
+}
+
+.navbar .logo{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.navbar .logo h3{
+    font-size: 1.7rem;
+    font-weight: 600rem;
+    color: #000;
+    
+}
+  
+.colored{
+    color: black;
+}
+
+#login-container h2{
+    margin-bottom: 25px;
+    font-size: 1.9rem;
+    text-transform: uppercase;
+    color: rgb(53, 64, 186);
+    text-align: center;
+}
+
+#login-container h3{
+    color: rgb(170, 169, 169);
+    margin-bottom: 35px;
+    margin-left: 55px;
+}
+
+
+#login-container {
+    width: 50%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    padding: 15px 50px;
+}
+
+form .input-field{
+    height: 50px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+form .input-field input{
+    width: 90%;
+    height: 90%;
+    font-size: 0.95rem;
+    border-radius: 10px;
+    
+}
+
+.form-group {
+  margin-bottom: 25px;
+  display: flex; /* Use flexbox to align items */
+  align-items: center; /* Align items vertically */
+
+
+}
+
+.forgot-pass {
+  margin-left: auto; /* Push the "Forgot Password?" link to the right */
+  margin-left: 170px; /* Add some space between the checkbox and the link */
+}
+
+/* Additional styling for the checkbox and link */
+input[type="checkbox"],
+label[for="remember-me"],
+.forgot-pass {
+  cursor: pointer;
+}
+
+
+.btn button{
+    width: 25%;
+    margin-left: 200px;
+    padding: 14px 0;
+    border-radius: 10px;
+    color: #fff;
+    background-color: rgb(70, 70, 237);
+    border: none;
+    margin-bottom: 25px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.centered-hr {
+  flex-grow: 1;
+  border: none;
+  border-top: 1px solid #ccc; /* Style the horizontal rule */
+  margin: 0 10px; /* Add some margin for spacing */
+}
+
+.separator {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  margin-bottom: 30px;
+}
+
+.line {
+  flex-grow: 1;
+  height: 1px;
+  background-color: #ccc;
+}
+
+.text {
+  margin: 0 10px;
+}
+
+.bottom-link{
+  text-align: center;
+}
+
+.image{
+  display: flex;
+  justify-content: center;
+  
+}
+
+.image .icon{
+  width: 40px;
+  margin: 0 22px;
+  margin-bottom: 35px;
+  margin-top: 30px;
+  border-radius: 10px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
